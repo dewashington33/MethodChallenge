@@ -9,6 +9,18 @@ public class App {
         int highScorePosition = calculateHighScorePosition(1500);
         displayHighScorePosition("Tim", highScorePosition);
 
+        highScorePosition = calculateHighScorePosition(999);
+        displayHighScorePosition("Bob", highScorePosition);
+
+        highScorePosition = calculateHighScorePosition(499);
+        displayHighScorePosition("Percy", highScorePosition);
+
+        highScorePosition = calculateHighScorePosition(99);
+        displayHighScorePosition("Gilbert", highScorePosition);
+
+        highScorePosition = calculateHighScorePosition(-1000);
+        displayHighScorePosition("James", highScorePosition);
+
     }
 
     public static void displayHighScorePosition(String playerName, int highScorePosition) {
